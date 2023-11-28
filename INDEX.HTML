@@ -1,0 +1,392 @@
+<!DOCTYPE  html>
+<html>
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GPWTRAVELGUIDE</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- fonts -->
+        <link rel = "stylesheet" href = "fonts.css">
+        <!-- normalize css -->
+        <link rel = "stylesheet" href = "normalize.css">
+        <!-- custom css -->
+        <link rel = "stylesheet" href = "utility.css">
+        <link rel = "stylesheet" href = "style.css">
+        <link rel = "stylesheet" href = "responsive.css">
+    </head>
+ <body>
+        <!-- navbar  -->
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                    GPW<span>TRAVELGUIDE</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">Home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "gallery.html" class = "nav-link">Gallery</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "blog.html" class = "nav-link">Blog</a>
+                        </li>
+		<li class = "nav-item">
+                            <a href = "packages.html" class = "nav-link">Packages</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "about.html" class = "nav-link">About</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar  -->
+
+        <!-- header -->
+        <header class = "flex">
+            <div class = "container">
+                <div class = "header-title">
+                   <div class = "container">
+                <div class = "title-wrap">
+                    <h2 class = "lg-title">Our services</h2>
+		<span class = "sm-title"><marquee>Know about services that we offer</marquee></span>
+                </div>
+
+                <div class = "services-row">
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-hotel"></i>
+                        </span>
+                        <h3>Luxurious Hotel</h3>
+                        <p class = "text">Some of the best hotels of our recomendation of your destination</p>
+                        <a href = "https://www.tripadvisor.in/Hotels-g297585-Andhra_Pradesh-Hotels.html" class = "btn">Read more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-map-marked-alt"></i>
+                        </span>
+                        <h3>Planning</h3>
+                        <p class = "text">All you need to know before you go</p>
+                        <a href =" https://www.overstaytonight.com/tourism-planning/#:~:text=Tourism%20planning%20like%20any%20planning%20is%20purpose-oriented%2C%20determined,part%20of%20physical%2C%20environmental%2C%20social%20and%20economic%20planning." class = "btn">Read more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-home"></i>
+                        </span>
+                        <h3>tourism in daily life</h3>
+                        <p class = "text">checkout the importance of toursim and its enjoyment !!</p>
+                        <a href ="https://tourismteacher.com/importance-of-tourism/" class = "btn">Know more</a>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+   <!-- services section
+        <section id = "services" class = "py-4">
+            
+        </section>
+         end of services section -->
+
+        <!-- featured section -->
+        <section id = "featured" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">some of our favourites</span>
+                    <h2 class = "lg-title">featured places</h2>
+                </div>
+
+                <div class = "featured-row">
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "C:\Users\Sri Vaishnavi\OneDrive\Pictures\Saved Pictures\araku.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                               Araku valley, Vishakapatnam
+                            </span>
+                            <div>
+                                <p class = "text">Araku is famous for its coffee plantations surrounded by beautiful gardens, streams, waterfalls and valleys that are covered with lush green forests.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "C:\Users\Sri Vaishnavi\OneDrive\Pictures\Saved Pictures\lepakshi.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Lepakshi, Sri Satya Sai
+                            </span>
+                            <div>
+                                <p class = "text">Famous for its age-old shrines, Lepakshi is steeped in mythological grandeur.</p>
+                            </div>
+                        </div>
+                    </div>
+
+<div class = "featured-item my-2 shadow">
+                        <img src = "C:\Users\Sri Vaishnavi\OneDrive\Pictures\Saved Pictures\tirumala.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Tirumala, Tirupati
+                            </span>
+                            <div>
+                                <p class = "text"> It is a hill town where Tirumala Venkateswara Temple is located, which is the abode of Lord Venkateswara.</p>
+                            </div>
+                        </div>
+                    </div>
+<div class = "featured-item my-2 shadow">
+                        <img src ="C:\Users\Sri Vaishnavi\OneDrive\Pictures\Saved Pictures\vijayawada.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Vijayawada, NTR District
+                            </span>
+                            <div>
+                                <p class = "text">Vijayawada is the second largest city in the Indian state of Andhra Pradesh famous for its piligrimages. It is the administrative headquarters of the NTR district.</p>
+                            </div>
+                        </div>
+                    </div>
+<div class = "featured-item my-2 shadow">
+                        <img src = "C:\Users\Sri Vaishnavi\OneDrive\Pictures\Saved Pictures\vishakapatnam.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                RK Beach, Vishakapatnam
+                            </span>
+                            <div>
+                                <p class = "text">Visakhapatnam is known as the beach city of Andhra Pradesh with its alluring beaches attracting hordes of visitors every day. One of the most popular beaches of Vizag is Ramakrishna beach.</p>
+                            </div>
+                        </div>
+                    </div>
+<div class = "featured-item my-2 shadow">
+                        <img src = "C:\Users\Sri Vaishnavi\OneDrive\Pictures\Saved Pictures\lambasingi.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Lambasingi, Alluri Sitaramaraju
+                            </span>
+                            <div>
+                                <p class = "text">Famous for its age-old shrines, Lepakshi is steeped in mythological grandeur.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "C:\Users\Sri Vaishnavi\OneDrive\Pictures\Saved Pictures\horselyhills.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Horsley Hills, Annamayya district
+                            </span>
+                            <div>
+                                <p class = "text">This natural marvel is situated at an astonishing height of 4312 meters and is well-known for its breathtaking landscapes.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "C:\Users\Sri Vaishnavi\OneDrive\Pictures\Saved Pictures\GANDIKOTA.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Gandikota, kadapa
+                            </span>
+                            <div>
+                                <p class = "text">The village is majorly known for housing the spectacular gorge which is famously adjudged as the Grand Canyon of India.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "C:\Users\Sri Vaishnavi\OneDrive\Pictures\Saved Pictures\talakona-waterfalls.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Talakona waterfall,Tirupathi
+                            </span>
+                            <div>
+                                <p class = "text">Located in Sri Venkateswara National Park, Talakona Waterfall is the highest waterfall in the region and a famous picnic spot. The water is believed to have medicinal properties and comes from an unknown underground stream. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "C:\Users\Sri Vaishnavi\OneDrive\Pictures\Saved Pictures\Undavalli-Cave.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Undavalli caves, Guntur
+                            </span>
+                            <div>
+                                <p class = "text">The Undavalli Caves date back to the 7th century BC and are prime example of rock-cut architecture. s</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of featured section -->
+
+
+<!-- testimonials section -->
+        <section id = "testimonials" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">what our clients say about us</span>
+                    <h2 class = "lg-title">testimonials</h2>
+                </div>
+
+                <div class = "test-row">
+                    <div class = "test-item">
+                        <p class = "text">One of the helpful sevices I've went through thank you for helping me collect some core memories!</p>
+                        <div class = "test-item-info">
+                            <img src ="C:\Users\Sri Vaishnavi\OneDrive\Pictures\Saved Pictures\Kashmir-Of-South-India-Lammasingi.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Sireesha</h3>
+                                <p class = "text">Trip to Lambasingi</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">Even though i had no idea about touring and exploring, this helped me a lot on enjoying my trip to one of the most beautiful places I've visited- araku valley</p>
+                        <div class = "test-item-info">
+                            <img src = "C:\Users\Sri Vaishnavi\OneDrive\Pictures\Saved Pictures\testimonal2.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Manisha</h3>
+                                <p class = "text">Trip to Araku</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">Beautiful waterfalls surrouned by grorgeous nature. Rememberable experience for a while</p>
+                        <div class = "test-item-info">
+                            <img src = "C:\Users\Sri Vaishnavi\OneDrive\Pictures\Saved Pictures\testimonal3.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Thanusha</h3>
+                                <p class = "text">Trip to Thalakona</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of testimonials section -->
+      
+                <!-- video section -->
+     <br>   <section id = "video">
+            <div class = "video-wrapper flex">
+                <video loop controls>
+                    <source src = "C:\Users\Sri Vaishnavi\Downloads\272704475_139264385216984_8010207559868957525_n.mp4" type = "video/mp4">
+                </video>
+                <button type = "button" id = "play-btn">
+                    <i class = "fas fa-play"></i>
+                </button>
+            </div>
+        </section>
+        <!-- end of video section -->
+
+        <!-- footer -->
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        GPW<span>TRAVELGUIDE</span>
+                    </a>
+                    <p class = "text">We are students of Government Polytechnic for Women Kadapa, worked together on designing this website and working it out all as a ONE.</p>
+                </div>
+                
+                <div class = "footer-item">
+                    <h2>Follow us on: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "https://twitter.com/_srivaishnavi_?t=y1jvyaqyCQI3e6B41Z7zdQ&s=09">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "https://www.linkedin.com/in/sri-vaishnavi-bhaskara/">
+                                <i class = "fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "https://github.com/srivaishnavi26">
+                                <i class = "fab fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class = "footer-item">
+                    <h2>Popular Places:</h2>
+                    <ul>
+                        <li><a href = "#">Araku Valley</a></li>
+                        <li><a href = "#">Lepakshi</a></li>
+                        <li><a href = "#">Horsley hills</a></li>
+                        <li><a href = "#">Gandikota</a></li>
+                        <li><a href = "#">Talakona</a></li>
+                    </ul>
+                </div>
+
+                <div class = "subscribe-form footer-item">
+                    <h2>Register for more</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="Enter Email" class = "form-control">
+                        <input type = "submit" class = "btn" value = "register">
+                    </form>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- js -->
+ <script src = "C:\Users\Sri Vaishnavi\OneDrive\Desktop\project.js"></script>
+        <script>
+             // play/pause video and toggle button icon
+    let video = document.querySelector('.video-wrapper video');
+    let playButton = document.getElementById('play-btn');
+    
+    playButton.addEventListener('click', () => {
+        if (video.paused) {
+            video.play();
+         
+playButton.style.display = 'none';
+        } else {
+            video.pause();
+        }
+    });
+video.addEventListener('ended', () => {
+        playButton.style.display = 'block'; // Show the play button when video ends
+    });
+video.addEventListener('pause', () => {
+        playButton.style.display = 'block'; // Show the play button when video is paused
+    });
+video.addEventListener('play', () => {
+        playButton.style.display = 'none'; // Show the play button when video is paused
+    });
+</script>
+
+    </body>
+</html>
+</html>
